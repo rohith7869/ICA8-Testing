@@ -13,5 +13,14 @@ public class urinalsTest {
         assertTrue(urinal.hasAlternateChars(test));
     }
 
+    @Test
+    public void hasAlternateCharsTest_1()
+    {
+        System.out.println("========= Rohith Bellapu == TEST TWO EXECUTED =========");
+        urinals urinal=new urinals();
+        String test="011";
+        assertFalse(urinal.hasAlternateChars(test));
+    }
+
 
 }
