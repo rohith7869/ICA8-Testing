@@ -57,6 +57,14 @@ public class urinalsTest {
         assertEquals(3,urinal.countUrinals(test));
     }
 
+    @Test
+    public void countUrinalsTest_2()
+    {
+        System.out.println("========= Rohith Bellapu == TEST SEVEN EXECUTED =========");
+        urinals urinal=new urinals();
+        String test="01000";
+        assertEquals(1,urinal.countUrinals(test));
+    }
 
 
 }
